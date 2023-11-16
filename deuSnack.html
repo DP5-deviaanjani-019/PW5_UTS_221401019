@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+    body {
+        background: linear-gradient(to right, #4d87f2, #1cccc6,white);
+    }
+    </style>
+  <body>
+    <div class="container text-center">
+        <button class="btn btn-info tombol-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Aktifkan body scrolling</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas dengan body scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   <a href="index.html" class="btn btn-danger">Kembali</a>
+  </div>
+</div>
+        <h1 class="p-5">deuSnack</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="foto1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Opak Bawang</h5>
+                      <p class="card-text">Opak Bawang ini mempunyai rasa renyah dan bisa dikonsumsi oleh semua orang.</p>
+                      <a href="detail1.html" class="btn btn-info">Lihat Detail</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="foto2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kerupuk Jengkol</h5>
+                      <p class="card-text">Kerupuk ini mempunyai rasa yang hampir sama dengan jengkol yang asli dan kerupuknya renyah.</p>
+                      <a href="detail2.html" class="btn btn-info">Lihat Detail</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="foto3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chitato</h5>
+                      <p class="card-text">Chitatao ini adalah kerupuk yang mempunyai rasa yang pedan dan tidak diperbolehkan dimakan oleh anak-anak balita.</p>
+                      <a href="detail3.html" class="btn btn-info">Lihat Detail</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .tombol-menu {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
